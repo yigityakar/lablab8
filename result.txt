@@ -1,0 +1,17 @@
+
+
+
+
+
+1)
+     a)3.4%
+     b)improved_matrixProd => 1       , naive_matrixProd => 16,384
+     c)improved_matrixProd => .       , naive_matrixProd =>16,384
+
+2)   8*8 blocks=> 2.6    , 32*32  blocks=> 5.1
+
+
+
+3) I believe that the cache performance would be worse since integers have the size of 4 bytes and longs have the size of 8 bytes. Program would need to go two times further if we used long data type.
+Therefore using long would cause the cache be used inefficiently.  
+
